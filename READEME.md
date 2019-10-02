@@ -6,4 +6,4 @@
 * { box-sizing: border-box; }
 ```
 
-
+项目构建工具： parcel
