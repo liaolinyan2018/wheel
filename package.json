@@ -1,0 +1,26 @@
+{
+  "name": "wheel",
+  "version": "1.0.0",
+  "description": "一个UI框架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liaolinyan2018/wheel.git"
+  },
+  "keywords": [
+    "vue",
+    "ui"
+  ],
+  "author": "lly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liaolinyan2018/wheel/issues"
+  },
+  "homepage": "https://github.com/liaolinyan2018/wheel#readme",
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
+}
