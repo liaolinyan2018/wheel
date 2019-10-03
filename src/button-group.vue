@@ -9,7 +9,6 @@
         name: "button-group",
         mounted() {
             let name = this.$el.children[0].nodeName.toLowerCase()
-            console.dir(this)
             if (name !== 'button') {
                 console.warn(`g-button-group 组件子元素必须为 g-button , 你输入的是${name}, 需要更改，否则样式可能会出错`)
             }
