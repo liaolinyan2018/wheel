@@ -1,13 +1,12 @@
 <template>
-    <div>
-        <button class="g-button" :class="{[`icon-${iconPosition}`]: true}">
-            <g-icon name="loading" class="loading icon" v-if="loading"></g-icon>
-            <g-icon :name="icon" class="icon" v-if="icon && !loading"></g-icon>
-            <div class="text">
-                <slot></slot>
-            </div>
-        </button>
-    </div>
+    <button class="g-button" :class="{[`icon-${iconPosition}`]: true}">
+        <g-icon name="loading" class="loading icon" v-if="loading"></g-icon>
+        <g-icon :name="icon" class="icon" v-if="icon && !loading"></g-icon>
+        <div class="text">
+            <slot></slot>
+        </div>
+    </button>
+
 </template>
 
 <script>
@@ -42,7 +41,9 @@
         100% {
             transform: rotate(360deg);
         }
-    };
+    }
+
+    ;
 
     .g-button {
         height: var(--button-height);
