@@ -8,8 +8,8 @@
 </head>
 <body>
 <div id="app">
-    <g-button icon="setting" icon-position="left">按钮</g-button>
-    <g-button icon="setting" icon-position="right">按钮</g-button>
+    <g-button icon="setting" icon-position="left" :loading="loading" @click.native="loading=!loading">按钮</g-button>
+    <g-button icon="setting" icon-position="right" :loading="loading" @click.native="loading=!loading">按钮</g-button>
     <g-button icon="left" icon-position="left">按钮</g-button>
     <g-button icon="right" icon-position="left">按钮</g-button>
     <g-button icon="down" icon-position="left">按钮</g-button>
